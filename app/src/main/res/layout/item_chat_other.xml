@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/text_view_user_alphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_accent"
+        android:gravity="center"
+        android:maxEms="1"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/grayGelap"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_regular"
+        tools:text="a"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/chat_rounded_rect_bg_other"
+        android:padding="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_standard"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text_view_chat_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/grayGelap"
+            android:fontFamily="@font/poppins_regular"
+            tools:text="Hello mate!"
+            android:textSize="@dimen/text_font"
+            android:layout_marginTop="@dimen/margin_small"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:textSize="10sp"
+            android:textColor="@color/grayMain"
+            android:text="time"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+
+</LinearLayout>

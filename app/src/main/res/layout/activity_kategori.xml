@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putihGelap1"
+    tools:context="com.zlayar.zlayar.FragmentMain.HasilFilter">
+
+    <RelativeLayout
+        android:id="@+id/customToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/blue2">
+
+        <ImageView
+            android:id="@+id/ktBack"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_backward_white" />
+
+        <RelativeLayout
+            android:id="@+id/kategori_pencarian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ktBack"
+            android:background="@drawable/border_cari_jasa"
+            android:elevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_jasa"
+                android:layout_width="28dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_search" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img_jasa"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Temukan Jasamu!"
+                android:textColor="@color/grayMain"
+                android:textSize="@dimen/title_font" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="8dp"
+        android:id="@+id/tab_Kategori"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        style="@style/MyCustomTabLayout"
+        android:backgroundTint="@color/putih"
+        android:background="@drawable/border_tab_main"
+        android:layout_below="@+id/customToolbar"
+        >
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_Kategori"
+        android:layout_below="@+id/tab_Kategori"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

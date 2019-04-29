@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#23a309</color>
+    <color name="colorHijau">#36c918</color>
+    <color name="tab_indicator_color">#000</color>
+    <color name="tab_indicator_color2">#fff</color>
+    <color name="bggrey">#caccc9</color>
+    <color name="gray">#b5b6b4</color>
+    <color name="grayMain">#616161</color>
+    <color name="grayGelap">#313131</color>
+    <color name="putih">#fff</color>
+    <color name="putihGelap1">#e4e2e2</color>
+    <color name="putihGelap2">#d1cfcf</color>
+    <color name="primary_material_light">#f5f5f5</color>
+    <color name="text_color_primary">#000000</color>
+    <color name="blue1">#138abb</color>
+    <color name="hitam">#000000</color>
+    <color name="blue2">#1C8ADB</color>
+    <color name="blue3">#303F9F</color>
+    <color name="blue4">#1ab8f9</color>
+</resources>

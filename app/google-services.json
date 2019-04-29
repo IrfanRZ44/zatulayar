@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "276125570661",
+    "firebase_url": "https://zatulayar-5e06b.firebaseio.com",
+    "project_id": "zatulayar-5e06b",
+    "storage_bucket": "zatulayar-5e06b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276125570661:android:6a2cc3c73bb2fe17",
+        "android_client_info": {
+          "package_name": "com.zlayar.zlayar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276125570661-o48ktoontdhvocq6933q8l83ml2jh1ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zlayar.zlayar",
+            "certificate_hash": "ded42d0c5f758491d032e67b53a4d6d53ca4f571"
+          }
+        },
+        {
+          "client_id": "276125570661-08s3jj4ijj9f7tfov98jv3kndse0r7ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBhMa9eg75satoZ7Tz2IfkmV_Q2QUTkj8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276125570661-08s3jj4ijj9f7tfov98jv3kndse0r7ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

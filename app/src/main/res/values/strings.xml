@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zatulayar</string>
+    <string name="title_activity_kt_android">kt_android</string>
+    <string name="terms_of_service">Syarat dan Ketentuan</string>
+    <string-array name="lokasi">
+        <item>Makassar</item>
+        <item>Gowa</item>
+    </string-array>
+</resources>

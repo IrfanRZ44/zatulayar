@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">#313131</item>
+        <item name="android:colorControlActivated">#616161</item>
+        <item name="android:colorControlHighlight">#000000</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="Theme.AppCompat.Putih.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.AppCompat.Putih.DayNight" parent="Theme.AppCompat.DayNight">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.AppCompat.Gray.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+    </style>
+</resources>

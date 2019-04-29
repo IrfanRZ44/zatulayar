@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/putih">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:src="@drawable/personpic"
+                android:id="@+id/koleksiPic"
+                android:scaleType="fitCenter"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="16sp"
+                android:textColor="@color/grayGelap"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/textKoleksi"
+                android:layout_toRightOf="@+id/koleksiPic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textKoleksi"
+                android:layout_toRightOf="@+id/koleksiPic"
+                android:id="@+id/textLabel"
+                android:text="Description"
+                android:textSize="12sp"
+                android:textColor="@color/grayMain"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/poppins_regular"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zlayar.zlayar.MainActivity"
+    android:background="@color/putihGelap1"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zlayar.zlayar.adapter.CustomViewPager
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_Cari"
+            android:layout_marginBottom="55dp"
+            >
+
+        </com.zlayar.zlayar.adapter.CustomViewPager>
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/tabCari"
+            android:layout_alignParentBottom="true"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            style="@style/MyCustomTabLayout"
+            android:backgroundTint="@color/putih"
+            android:background="@drawable/border_tab_main"
+            app:tabIndicatorColor="@color/putih"
+            android:elevation="20dp"
+            >
+
+        </android.support.design.widget.TabLayout>
+    </RelativeLayout>
+</LinearLayout>

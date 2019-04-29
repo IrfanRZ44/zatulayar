@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    tools:context="com.zlayar.zlayar.FragmentMain.FilterJasa">
+
+    <RelativeLayout
+        android:id="@+id/customToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/blue2"
+        android:layout_marginBottom="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/filterBack"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_backward_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/filterBack"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical"
+            android:text="Filter"
+            android:textColor="@color/putih"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/customToolbar"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/edit_pencarian"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/putih"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_search"
+                android:id="@+id/cari_filter"
+                />
+            <EditText
+                android:id="@+id/edit_cari"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cari_filter"
+                android:layout_centerVertical="true"
+                android:hint="Cari..."
+                android:paddingLeft="10dp"
+                android:textColor="@color/hitam"
+                android:textColorHint="@color/grayMain" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_spinner_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/putih"
+            android:layout_below="@+id/edit_pencarian"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_lokasi_gray"
+                android:id="@+id/spinner_filter_lokasi"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_lokasi"
+                android:id="@+id/spinner_lokasi"
+                android:layout_toRightOf="@+id/spinner_filter_lokasi"
+                android:layout_centerVertical="true"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:popupBackground="@drawable/border_cari_jasa"
+                >
+
+            </Spinner>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_spinner_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/putih"
+            android:layout_below="@+id/rl_spinner_lokasi"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/service_filter"
+                android:id="@+id/spinner_filter_kategori"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/spinner_lokasi"
+                android:id="@+id/spinner_kategori"
+                android:layout_toRightOf="@+id/spinner_filter_kategori"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:popupBackground="@drawable/border_cari_jasa"
+                >
+
+            </Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_spinner_sub"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/putih"
+            android:layout_below="@+id/rl_spinner_kategori"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/service_filter"
+                android:id="@+id/spinner_filter_sub"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/spinner_lokasi"
+                android:id="@+id/spinner_sub"
+                android:layout_toRightOf="@+id/spinner_filter_sub"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:popupBackground="@drawable/border_cari_jasa"
+                >
+
+            </Spinner>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_cari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/border_btn_search"
+            android:text="Cari"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:textSize="@dimen/title_font"
+            android:fontFamily="@font/poppins_regular"
+            android:elevation="4dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

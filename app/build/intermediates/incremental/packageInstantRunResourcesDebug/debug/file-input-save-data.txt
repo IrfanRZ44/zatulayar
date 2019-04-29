@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Nov 12 01:14:24 CST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\IrfanRZ\\Downloads\\Compressed\\Zlayar\\app\\build\\intermediates\\assets\\debug
+0.path=terms.txt
+0.set=ASSET
+count=1

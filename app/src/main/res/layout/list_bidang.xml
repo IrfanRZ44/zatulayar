@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_check"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+         />
+
+    <TextView
+        android:id="@+id/textBidang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_check"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/hitam"
+        android:layout_marginLeft="15dp"
+        android:textSize="@dimen/text_font" />
+
+</RelativeLayout>
